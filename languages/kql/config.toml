@@ -1,0 +1,6 @@
+name = "KQL"
+grammar = "kusto"
+path_suffixes = ["kql", "csl", "kusto"]
+line_comments = ["// "]
+tab_size = 4
+word_characters = ["_", "$"]

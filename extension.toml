@@ -1,0 +1,11 @@
+id = "kql"
+name = "KQL"
+version = "0.1.0"
+schema_version = 1
+authors = ["ataidecarlos"]
+description = "Kusto Query Language (KQL) support for Zed, including syntax highlighting."
+repository = "https://github.com/ataidecarlos/zed-kql"
+
+[grammars.kusto]
+repository = "https://github.com/kiennq/tree-sitter-kusto"
+rev = "2833156e1a37f4ffae715e93a751f53e8235ae02"
